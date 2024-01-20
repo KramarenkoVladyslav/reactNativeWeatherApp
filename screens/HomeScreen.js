@@ -92,6 +92,13 @@ export default function HomeScreen() {
 						<Text className='text-lg font-semibold text-gray-300'>United Kindom</Text>
 					</Text>
 				</View>
+				{/* Weather image */}
+				<View className="flex-row justify-center">
+					<Image
+						source = {require('../assets/images/partlycloudy.png')}
+						className = "w-52 h-52"
+					/>
+				</View>
 			</SafeAreaView>
 		</View>
 	);
