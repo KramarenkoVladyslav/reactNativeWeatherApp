@@ -4,12 +4,16 @@ import {
 	SafeAreaView,
 	TextInput,
 	TouchableOpacity,
+	ScrollView,
 } from 'react-native';
 import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Image } from 'react-native';
 import { theme } from '../theme/index.js';
-import { MagnifyingGlassIcon } from 'react-native-heroicons/outline';
+import {
+	CalendarDaysIcon,
+	MagnifyingGlassIcon,
+} from 'react-native-heroicons/outline';
 import { MapPinIcon } from 'react-native-heroicons/solid';
 
 export default function HomeScreen() {
@@ -139,6 +143,115 @@ export default function HomeScreen() {
 							</Text>
 						</View>
 					</View>
+				</View>
+				{/* Forecast for next day */}
+				<View className='mb-2 space-y-3'>
+					<View className='flex-row items-center mx-5 space-x-2'>
+						<CalendarDaysIcon
+							size='22'
+							color='white'
+						></CalendarDaysIcon>
+						<Text className='text-white text-base'>
+							Daily forecast
+						</Text>
+					</View>
+					<ScrollView
+						horizontal
+						contentContainerStyle={{ paddingHorizontal: 15 }}
+						showsHorizontalScrollIndicator={false}
+					>
+						<View
+							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
+							style={{ backgroundColor: theme.bgWhite(0.25) }}
+						>
+							<Image
+								source={require('../assets/images/heavyrain.png')}
+								className='h-11 w-11'
+							/>
+							<Text className='text-white'>Monday</Text>
+							<Text className='text-white text-xl font-semi-bold'>
+								23&#176;
+							</Text>
+						</View>
+						<View
+							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
+							style={{ backgroundColor: theme.bgWhite(0.25) }}
+						>
+							<Image
+								source={require('../assets/images/heavyrain.png')}
+								className='h-11 w-11'
+							/>
+							<Text className='text-white'>Tuesday</Text>
+							<Text className='text-white text-xl font-semi-bold'>
+								23&#176;
+							</Text>
+						</View>
+						<View
+							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
+							style={{ backgroundColor: theme.bgWhite(0.25) }}
+						>
+							<Image
+								source={require('../assets/images/heavyrain.png')}
+								className='h-11 w-11'
+							/>
+							<Text className='text-white'>Monday</Text>
+							<Text className='text-white text-xl font-semi-bold'>
+								23&#176;
+							</Text>
+						</View>
+						<View
+							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
+							style={{ backgroundColor: theme.bgWhite(0.25) }}
+						>
+							<Image
+								source={require('../assets/images/heavyrain.png')}
+								className='h-11 w-11'
+							/>
+							<Text className='text-white'>Monday</Text>
+							<Text className='text-white text-xl font-semi-bold'>
+								23&#176;
+							</Text>
+						</View>
+						<View
+							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
+							style={{ backgroundColor: theme.bgWhite(0.25) }}
+						>
+							<Image
+								source={require('../assets/images/heavyrain.png')}
+								className='h-11 w-11'
+							/>
+							<Text className='text-white'>Monday</Text>
+							<Text className='text-white text-xl font-semi-bold'>
+								23&#176;
+							</Text>
+						</View>
+						<View
+							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
+							style={{ backgroundColor: theme.bgWhite(0.25) }}
+						>
+							<Image
+								source={require('../assets/images/heavyrain.png')}
+								className='h-11 w-11'
+							/>
+							<Text className='text-white'>Monday</Text>
+							<Text className='text-white text-xl font-semi-bold'>
+								23&#176;
+							</Text>
+						</View>
+						<View
+							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
+							style={{ backgroundColor: theme.bgWhite(0.25) }}
+						>
+							<Image
+								source={require('../assets/images/heavyrain.png')}
+								className='h-11 w-11'
+							/>
+							<Text className='text-white'>Monday</Text>
+							<Text className='text-white text-xl font-semi-bold'>
+								23&#176;
+							</Text>
+						</View>
+					</ScrollView>
 				</View>
 			</SafeAreaView>
 		</View>
