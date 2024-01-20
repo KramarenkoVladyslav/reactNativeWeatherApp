@@ -15,6 +15,9 @@ import { MapPinIcon } from 'react-native-heroicons/solid';
 export default function HomeScreen() {
 	const [showSearch, toggleSearch] = useState(false);
 	const [locations, setLocations] = useState([1, 2, 3]);
+	const handeLocation = loc => {
+		console.log('location');
+	};
 
 	return (
 		<View className='flex-1 relative'>
@@ -80,6 +83,14 @@ export default function HomeScreen() {
 							})}
 						</View>
 					) : null}
+				</View>
+				{/* Forecast section */}
+				<View className='mx-4 flex justify-around flex-1 mb-2'>
+					{/* Location */}
+					<Text className='text-white text-center text-2xl font-bold'>
+						London,
+						<Text className='text-lg font-semibold text-gray-300'>United Kindom</Text>
+					</Text>
 				</View>
 			</SafeAreaView>
 		</View>
