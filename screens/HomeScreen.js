@@ -89,15 +89,26 @@ export default function HomeScreen() {
 					{/* Location */}
 					<Text className='text-white text-center text-2xl font-bold'>
 						London,
-						<Text className='text-lg font-semibold text-gray-300'>United Kindom</Text>
+						<Text className='text-lg font-semibold text-gray-300'>
+							United Kindom
+						</Text>
 					</Text>
-				</View>
-				{/* Weather image */}
-				<View className="flex-row justify-center">
-					<Image
-						source = {require('../assets/images/partlycloudy.png')}
-						className = "w-52 h-52"
-					/>
+					{/* Weather image */}
+					<View className='flex-row justify-center'>
+						<Image
+							source={require('../assets/images/partlycloudy.png')}
+							className='w-52 h-52'
+						/>
+					</View>
+					{/* Degree calius */}
+					<View>
+						<Text className='text-center font-bold text-white text-6xl ml-5'>
+							23&#176;
+						</Text>
+						<Text className='text-center font-bold text-white text-xl tracking-widest'>
+							Partly cloudly
+						</Text>
+					</View>
 				</View>
 			</SafeAreaView>
 		</View>
