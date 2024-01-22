@@ -33,12 +33,12 @@ export default function HomeScreen() {
 			/>
 			{/* Search section */}
 			<SafeAreaView className='flex flex-1'>
-				<View style={{ height: '7%' }} className='mx-4 relative z-50'>
+				<View style={{ height: '7%'}} className='mx-4 relative z-50'>
 					<View
 						className='flex-row justify-end items-center rounded-full'
 						style={{
 							backgroundColor: showSearch
-								? theme.bgWhite(0.2)
+								? theme.bgWhite(0.3)
 								: 'transparent',
 						}}
 					>
@@ -160,7 +160,7 @@ export default function HomeScreen() {
 					>
 						<View
 							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
-							style={{ backgroundColor: theme.bgWhite(0.25) }}
+							style={{ backgroundColor: theme.bgWhite(0.3) }}
 						>
 							<Image
 								source={require('../assets/images/heavyrain.png')}
@@ -173,7 +173,7 @@ export default function HomeScreen() {
 						</View>
 						<View
 							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
-							style={{ backgroundColor: theme.bgWhite(0.25) }}
+							style={{ backgroundColor: theme.bgWhite(0.3) }}
 						>
 							<Image
 								source={require('../assets/images/heavyrain.png')}
@@ -186,7 +186,7 @@ export default function HomeScreen() {
 						</View>
 						<View
 							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
-							style={{ backgroundColor: theme.bgWhite(0.25) }}
+							style={{ backgroundColor: theme.bgWhite(0.3) }}
 						>
 							<Image
 								source={require('../assets/images/heavyrain.png')}
@@ -199,7 +199,7 @@ export default function HomeScreen() {
 						</View>
 						<View
 							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
-							style={{ backgroundColor: theme.bgWhite(0.25) }}
+							style={{ backgroundColor: theme.bgWhite(0.3) }}
 						>
 							<Image
 								source={require('../assets/images/heavyrain.png')}
@@ -212,7 +212,7 @@ export default function HomeScreen() {
 						</View>
 						<View
 							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
-							style={{ backgroundColor: theme.bgWhite(0.25) }}
+							style={{ backgroundColor: theme.bgWhite(0.3) }}
 						>
 							<Image
 								source={require('../assets/images/heavyrain.png')}
@@ -225,7 +225,7 @@ export default function HomeScreen() {
 						</View>
 						<View
 							className='flex justify-center items-center w-24 rounded-3xl py-3 space-y-1 mr-4'
-							style={{ backgroundColor: theme.bgWhite(0.25) }}
+							style={{ backgroundColor: theme.bgWhite(0.3) }}
 						>
 							<Image
 								source={require('../assets/images/heavyrain.png')}
