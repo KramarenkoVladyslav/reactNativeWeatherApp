@@ -61,7 +61,6 @@ export default function HomeScreen() {
 			cityName,
 			days: '7',
 		}).then(data => {
-			// console.log('got data: ',data.forecast.forecastday);
 			setWeather(data);
 			setLoading(false);
 		});
