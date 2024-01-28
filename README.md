@@ -1,8 +1,6 @@
 # reactNativeWeatherApp
 
-![Image](
-<img src="https://i.imgur.com/ibQgNcZ.png" width="200" height="200" alt="Назва картинки">
-)
+![Image](https://docs.google.com/document/d/1ZeIhAP69zCPKIzXDGuW4AGyBl7_rhnE--rdpHO8LcIQ/edit?usp=sharing)
   
 
 ## Get Started
