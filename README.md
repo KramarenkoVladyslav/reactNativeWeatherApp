@@ -1,6 +1,6 @@
 # reactNativeWeatherApp
 
-![Image](https://imgur.com/a/Fe7Ywtf)
+![Image](https://imgur.com/gallery/MLcu2kT)
   
 
 ## Get Started
